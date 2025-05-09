@@ -5,6 +5,10 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'Dockerfile'
+      - '.github/workflows/oci-build-image.yml'     
+    
 jobs:
   build:
     name: 'OCI'
@@ -17,3 +21,4 @@ jobs:
     with:
       registry: ghcr.io/di0ik
       image_name: forgejo_runner_container
+
