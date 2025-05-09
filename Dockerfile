@@ -1,4 +1,4 @@
-FROM data.forgejo.org/oci/node:20-bullseye
+FROM node:22-bullseye
 
 # Install Docker
 RUN apt-get update && \
