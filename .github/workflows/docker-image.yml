@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     name: 'OCI'
-    uses: curium-rocks/flows/.github/workflows/oci-build-image.yml@main
+    uses: curium-rocks/flows/.github/workflows/oci-build-image.yml@b3430421c119169f3e1e0c3cc70ebc9b4f82e039 # main
     permissions:
       contents: read
       packages: write
