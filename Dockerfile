@@ -1,4 +1,4 @@
-FROM node:22-bullseye@sha256:9ba013a850f62c6c2a4768232cb971c4c386a6ec130ca241b165bb3b405c368d
+FROM node:26-bullseye@sha256:784b1bb050f6bf8ccfdc28d9d07ad07d15ab9d72eee5867f875ba219abec2611
 
 # Install Docker
 RUN apt-get update && \
